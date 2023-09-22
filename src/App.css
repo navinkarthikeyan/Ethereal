@@ -2,6 +2,7 @@
 * {
   background-color: #222222;
   margin: 0;
+  padding: 0;
 }
 .navbar {
   background-color: #222222;
@@ -9,22 +10,29 @@
   height: 10vh;
   width: 98.8vw;
   position: fixed;
+  width: fit-content;
 }
 .leftnav {
   background-color: transparent;
+  justify-content: flex-start;
   display: flex;
   width: 50vw;
 }
 .rightnav {
   background-color: #222222;
+  justify-content: flex-end;
   display: flex;
   width: 50vw;
 }
 .logo {
   display: flex;
-  width: 5vw;
+  align-items: center;
+  /* width: 5vw; */
+  padding-left: 2%;
+  margin-right: 20px;
 }
 .logo img {
+  display: flex;
   background-color: transparent;
   width: 35px;
   height: 35px;
@@ -39,9 +47,11 @@
   color: white;
   display: flex;
   background-color: transparent;
-  padding-top: 2.6%;
+  padding-top: 3%;
   padding-left: 1%;
-  font-size: x-large;
+  font-size: 1.8rem;
+  text-align: center;
+  position: relative;
 }
 .content {
   display: flex;
@@ -58,6 +68,7 @@
   width: 98.8vw;
   height: 50vh;
   justify-content: center;
+  align-items: center;
 }
 .icontent {
   background-color: transparent;
@@ -77,6 +88,7 @@
 .ictitle {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .iccontent {
   font-family: "Teko";
@@ -84,9 +96,9 @@
   display: flex;
   flex-direction: column;
   color: #a7b0ab;
-  height: 30vh;
-  width: 30vw;
-  font-size: 150%;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2vh 0;
 }
 .getstarted {
   background-color: #272627;
@@ -95,19 +107,28 @@
   color: white;
   width: 98.8vw;
   height: 95vh;
+  padding: 10vh 0;
 }
-.gsleft {
+/* .gsleft {
   background-color: transparent;
   width: 50vw;
 }
 .gsright {
   background-color: transparent;
   width: 48.8vw;
+} */
+.gsleft,
+.gsright {
+  background-color: transparent;
+  width: 100%;
+  text-align: center;
 }
 .gsright img {
   background-color: transparent;
-  padding-top: 15%;
-  padding-left: 15%;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 5% 0;
 }
 .gstitle {
   background-color: transparent;
@@ -122,13 +143,13 @@
 .gslcontent {
   background-color: transparent;
   font-family: "Teko";
+  color: #a7b0ab;
   text-align: center;
   display: flex;
   flex-direction: column;
-  color: #a7b0ab;
   height: 30vh;
   width: 30vw;
-  font-size: 150%;
+  font-size: 1.5rem;
   padding-left: 20%;
 }
 .rightcontent {
@@ -142,5 +163,6 @@
 .gtbutton {
   color: white;
   font-family: "Teko";
-  font-size: x-large;
+  font-size: 1.5rem;
+  min-width: 10vw;
 }
