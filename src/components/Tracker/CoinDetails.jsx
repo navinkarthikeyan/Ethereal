@@ -6,8 +6,10 @@ export default function CoinDetails(props) {
       <div className="detailsRow">
         <p>{props.id}</p>
         <p>{props.name}</p>
-        <p>{props.currentPrice}</p>
-        <img src={props.img} alt="coin image" />
+        <p className="curentprice">{props.currentPrice}</p>
+        <div className="coinimage">
+          <img src={props.img} alt="coin image" />
+        </div>
       </div>
     </div>
   );

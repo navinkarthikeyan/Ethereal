@@ -4,8 +4,13 @@
   flex-direction: column;
 }
 .detailsRow {
+  color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+}
+.coinimage img {
+  width: 35px;
+  height: 35px;
 }
