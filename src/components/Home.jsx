@@ -58,6 +58,7 @@ function Home() {
           <img src={getstart} alt="" />
         </div>
       </div>
+      <div className="author">@NavinKarthikeyan</div>
     </div>
   );
 }

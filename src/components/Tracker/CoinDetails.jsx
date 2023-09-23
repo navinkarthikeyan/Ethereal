@@ -4,7 +4,7 @@ export default function CoinDetails(props) {
   return (
     <div className="container">
       <div className="detailsRow">
-        <p>{props.id}</p>
+        <p>#{props.id + 1}</p>
         <p>{props.name}</p>
         <p className="curentprice">{props.currentPrice}</p>
         <div className="coinimage">
