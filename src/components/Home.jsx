@@ -35,9 +35,10 @@ function Home() {
           <div className="ictitle">
             <div className="tiitle">Welcome To Ethereal</div>
             <div className="iccontent">
-              Ethereal is the community-run technology powering the
-              cryptocurrency ether (ETH) and thousands of decentralized
-              applications.
+              Welcome to the future of financial monitoring! Our Ethereal
+              [Cryptocoin Price Tracker] provides real-time insights into the
+              dynamic world of digital currencies, helping you stay ahead of
+              market trends.
             </div>
           </div>
         </div>
@@ -46,9 +47,8 @@ function Home() {
         <div className="gsleft">
           <div className="gstitle">Get started</div>
           <div className="gslcontent">
-            ethereum.org is your portal into the world of Crypto. The tech is
-            new and ever-evolving – it helps to have a guide. Here's what we
-            recommend you do if you want to dive in.
+            etherealapp is your portal into the world of Crypto. The tech is new
+            and ever-evolving – it helps to have a guide. dive in to ethereal
           </div>
           <div className="teleport">
             <Link to="/tracker">Go to Tracker</Link>
