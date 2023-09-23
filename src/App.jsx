@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route, Link } from "react-router-dom";
-import Tracker from "./components/Tracker";
+import Tracker from "./components/Tracker/Tracker";
 import Home from "./components/Home";
 
 function App() {
